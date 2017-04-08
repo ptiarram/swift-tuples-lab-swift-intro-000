@@ -18,7 +18,7 @@
 
 
 
-
+var person : (String, Int) = ("Jane", 24)
 
 
 
@@ -27,7 +27,7 @@
  ### 2. Print out "<Name> is <Age> years old" using the tuple you created in Question 1.
  */
 // write your code here
-
+print ("\(person.0) is \(person.1) years old")
 
 
 
@@ -42,7 +42,7 @@
 
 
 
-
+person.1 += 1
 
 
 
@@ -52,7 +52,7 @@
  */
 // write your code here
 
-
+print("Happy \(person.1) birthday, \(person.0)!")
 
 
 
@@ -65,7 +65,7 @@
 // write your code here
 
 
-
+var person1 : (String, Int) = ("John", 29)
 
 
 
@@ -78,7 +78,7 @@
 
 
 
-
+print ("\(person1.0) is \(person1.1) years old")
 
 
 
@@ -88,7 +88,7 @@
 // write your code here
 
 
-
+person1.1 += 1
 
 
 
@@ -102,7 +102,7 @@
 
 
 
-
+print("Happy \(person1.1) birthday, \(person1.0)!")
 
 
 /*:
@@ -112,7 +112,7 @@
 
 
 
-
+let human : (String, Int) = ("Human", 23)
 
 
 
@@ -126,6 +126,6 @@
 
 
 
-
+human.0 += 1
 
 //: Check [here](https://github.com/learn-co-curriculum/swift-tuples-lab/blob/solution/Tuples.playground/Pages/solution.xcplaygroundpage/Contents.swift) for the solution.
